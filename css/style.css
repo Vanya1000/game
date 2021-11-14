@@ -105,7 +105,8 @@ div#messageArea {
   position: absolute;
   top: 0px;
   left: 0px;
-  color: #53afaf;
+  color: #33ff00;
+  font-size: 35px;
 }
 
 table {
@@ -118,8 +119,8 @@ table {
 }
 
 td {
-  width: 94px;
-  height: 94px;
+  width: 95px;
+  height: 95px;
 }
 
 form {
