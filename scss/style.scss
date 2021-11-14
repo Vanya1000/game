@@ -1,13 +1,14 @@
 @import"_nullstyle";
 body {
 	background-color: black;
+	min-width: 1024px;
 }
 div#board {
 	position: relative;
 	width: 1024px;
 	height: 863px;
 	margin: auto;
-	background: url("https://vanya1000.github.io/game/img/board.jpg") no-repeat;
+	background: url('../img/board.jpg') no-repeat;
 }
 div#messageArea {
 	position: absolute;
@@ -41,8 +42,8 @@ form input {
 	font-size: 1em;
 }
 .hit {
-   background: url("https://vanya1000.github.io/game/img/ship.png") no-repeat center center;
+   background: url('../img/ship.png') no-repeat center center;
 }
 .miss {
-   background: url("https://vanya1000.github.io/game/img/miss.png") no-repeat center center;
+   background: url('../img/miss.png') no-repeat center center;
 }
