@@ -1,5 +1,5 @@
 "use strict"
-const randomLoc = Math.floor(Math.random() * 5);
+/*const randomLoc = Math.floor(Math.random() * 5);
 const location1 = randomLoc;
 const location2 = location1 + 1;
 const location3 = location2 + 1;
@@ -29,7 +29,4 @@ const finish = document.querySelector('.textFinish');
 finish.style.display='block';
 let stats = `Ты использовала ${guesses} попыток и потопила таки корабль! Точность попадания составила(${3/guesses})`
 alert(stats);
-
-
-
-
+*/
