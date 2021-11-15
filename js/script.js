@@ -144,7 +144,6 @@ function handleFireButton() {
 function touch () {
 	let target = event.target;
 	if (target.closest('td')) {
-		console.log(target.getAttribute('id'));
 		controller.processGuess(target.getAttribute("id"));
 	}
 }
